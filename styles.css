@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
   background-color:rgb(220, 181, 202);
   display: flex;
   flex-direction: column;
@@ -16,7 +18,7 @@ main {
 }
 
 #datetime {
-  background-color: rgb(172, 205, 164);
+  background-color: rgb(218, 190, 244);
   width: 300px;
   margin: auto;
   border: 1px solid grey;
@@ -25,5 +27,5 @@ main {
 body {
   background-color: #ffffff;
   opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 40px ), repeating-linear-gradient( #FAF0E655, #FAF0E6 );
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 40px ), repeating-linear-gradient( #FAF0E655, #a857e6 );
 }
