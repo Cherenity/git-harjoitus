@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  font-family: 'Baloo 2', cursive;
+  font-weight: bold;
   background-color:rgb(220, 181, 202);
   display: flex;
   flex-direction: column;
@@ -10,20 +12,39 @@ body {
   height: 100%;
 }
 
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  color: rgb(80, 73, 78);
+}
+
 main {
   text-align: center;
-  color: rgb(46, 44, 44);
+  color: rgb(218, 183, 210);
 }
 
 #datetime {
-  background-color: rgb(172, 205, 164);
-  width: 300px;
+  /* background-color: rgb(218, 190, 244); */
+  background: url("free_pic.jpg") no-repeat center center scroll;
+  background-size:cover;
+  width: 370px;
   margin: auto;
-  border: 1px solid grey;
+  border: 2px solid rgb(178, 173, 176);
 }
 
 body {
-  background-color: #ffffff;
-  opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 40px ), repeating-linear-gradient( #FAF0E655, #FAF0E6 );
+  background-color:#ffffff ;
+  background-image:
+  repeating-radial-gradient(
+    circle at 0 0,
+    rgba(255, 255, 255, 0.8) 0,
+    rgba(255, 238, 250, 0.8) 60px
+  ),
+  linear-gradient(
+    120deg,
+    #ffe6fa,
+    #ffd9f7,
+    #fcdcff
+  );
+
 }
