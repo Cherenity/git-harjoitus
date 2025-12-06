@@ -17,3 +17,12 @@ Harjoitukset koostuvat seuraavista osioista:
 - **Git projektissa** (Kehittäminen tiimissä, Yhdistämispyyntöjen tekeminen ja käsittely)
 
 Tehtävien ohella on päivitetty myös oppimispäiväkirjaa.
+
+[Oppimispäiväkirja *(huom. private repositorio)*](https://github.com/Cherenity/git-oppimispaivakirja.git)
+
+[Tässä kello-sovellus (GitHub Pages)](https://cherenity.github.io/git-harjoitus/)
+
+![](kuva_sivusta.png)
+
+
+
