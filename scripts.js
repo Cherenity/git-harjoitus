@@ -50,7 +50,7 @@ function setupAnalogClock(canvas, clockWidth) {
     drawHand(clockWidth / 2, minutes * 6);
 
     var seconds = date.getSeconds();
-    ctx.strokeStyle = "red";
+    ctx.strokeStyle = "white";
     ctx.lineWidth = 1;
     drawHand(clockWidth / 2, seconds * 6);
 
